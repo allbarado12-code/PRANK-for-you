@@ -1,0 +1,21 @@
+import time
+import random
+
+name = input("What is your name? ")
+
+print("Accessing secret files...")
+time.sleep(1)
+print("Hacking into your account, " + name + "...")
+time.sleep(2)
+print("Bypassing security protocols...")
+time.sleep(1)
+print("Downloading embarrassing photos...")
+time.sleep(2)
+print("Uploading to the internet...")
+time.sleep(2)
+fake_percentage = random.randint(1, 100)
+print(f"Upload progress: {fake_percentage}%")
+time.sleep(1)
+print("Error! Just kidding! 😄")
+print("Hello, " + name + "!")
+print("You have been pranked!")
